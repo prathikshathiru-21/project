@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form 3</title>
+    <style>
+        fieldset{
+            width: 400px;
+        }
+span{
+    color: red;
+}
+    </style>
+</head>
+<body>
+    <form action="">
+        <fieldset>
+            <legend>Customer****</legend>
+            <label for="name">Name<span>*</span></label>
+            <input type="text" name="name" id="Name" required><br><br>
+            <label for="mail">Email<span>*</span></label>
+            <input type="email" name="mail" required><br><br>
+            <label for="investment">Investment</label>
+            <select>
+                <option value=""></option>
+                <option value="saving">Saving</option>
+                <option value="current">Current</option>
+             </select><br><br>
+             <label for="date">Date joined<span>*</span></label>
+             <input type="date" name="date" required><br><br>
+              <label for="action">Action</label>
+              <input type="checkbox">
+            </fieldset> <br><br><br>
+        <input type="submit" value="OK">&nbsp;&nbsp;<input type="reset" value="Cancel">
+    </form>
+</body>
+</html>

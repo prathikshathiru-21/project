@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form 6</title>
+    <style>
+        body{
+            background-color: rgb(185, 243, 243);
+        }
+        span{
+            color: darkgrey;
+        }
+        label{
+            color: rgb(235, 118, 118);
+        }
+        input{
+            color: rgb(85, 85, 240);
+        }
+        table{
+            color: rgb(235, 118, 118);
+        }
+        fieldset{
+            background-color: aqua;
+        }
+    </style>
+</head>
+<body>
+    <center><h2><i><u>Student Registration Form</u></i></h2></center>
+   <fieldset> <table cellpadding="8" cellscaping="">
+        <tr><td><label for="fname">First Name</label></td><td><input type="text" name="fname" max="30 character"><span>(max 30 character a-z and A-Z)</span></td></tr>
+        <tr><td><label for="lname">Last Name</label></td><td><input type="text" name="lname" max="30 character"><span>(max 30 character a-z and A-Z)</span></td></tr>
+        <tr><td><label for="dob">Date Of Birth</label></td><td><input type="datetime-local" name="dob" ></td></tr>
+        <tr><td><label for="mail">Email ID</label></td><td><input type="email" name="mail" ></td></tr>
+        <tr><td><label for="mobno">Moble Number</label></td><td><input type="text" name="mobno" max="10 digit"><span>(10 digit number)</span></td></tr>
+        <tr><td><label for="gender">Gender :</label></td><td>Male<input type="radio" name="gender" value="M">
+            Female<input type="radio" name="gender" value="F"></td></tr>
+            <tr><td><label for="addr">Address</label></td>
+                <td><textarea name="addr" id="" cols="30" rows="5"></textarea></td></tr>
+                <tr><td><label for="city">City</label></td><td><input type="text" name="city" max="30 character"><span>(max 30 character a-z and A-Z)</span></td></tr>
+                <tr><td><label for="pin">Pin Code</label></td><td><input type="text" name="pin" max="6 digit"><span>(6 digit number)</span></td></tr> 
+                <tr><td><label for="state">State</label></td><td><input type="text" name="state" max="30 character"><span>(max 30 character a-z and A-Z)</span></td></tr>    
+                <tr><td><label for="country">Country</label></td><td><input type="text" name="country"></td></tr>   
+                <tr><td><label for="hobbies">Hobbies</label></td>
+                    <td>Drawing<input type="checkbox" name="h1" value="drawing">
+                        Dancing<input type="checkbox"  name="h1" value="dancing">
+                        Singing<input type="checkbox"  name="h1" value="singing">
+                        Cooking<input type="checkbox"  name="h1" value="cooking"><br>
+                    Other<input type="checkbox" name="h1" value="other"><input type="text"></td></tr>
+                    <table cellpadding="4">
+                        <tr><th rowspan="5">Qualification</th> <th>sl.no</th><th>Examination</th><th>Board</th><th>Percentage</th><th>Year od Passing</th></tr>
+                        <tr><td>1</td><td>Class X</td><td><input type="text"></td><td><input type="text"></td><td><input type="text"></td></tr>
+                        <tr><td>2</td><td>Class XII</td><td><input type="text"></td><td><input type="text"></td><td><input type="text"></td></tr>
+                        <tr><td>3</td><td>Gratuation</td><td><input type="text"></td><td><input type="text"></td><td><input type="text"></td></tr>
+                        <tr><td>4</td><td>Masters</td><td><input type="text"></td><td><input type="text"></td><td><input type="text"></td></tr>
+                    </table><br><br>
+                    <tr><td><label for="capp">Course Applied For</label></td>
+                        <td>BCA<input type="radio" name="capp" value="BCA">
+                        B.COM<input type="radio" name="capp" value="B.COM">
+                        B.Sc<input type="radio" name="capp" value="B.Sc">
+                        B.A<input type="radio" name="capp" value="BCA"></td></tr><br><br>
+                        <tr><td><input type="submit" value="Submit">&nbsp;&nbsp;<input type="reset" value="Reset"></td></tr>
+    </table></fieldset>
+</body>
+</html>

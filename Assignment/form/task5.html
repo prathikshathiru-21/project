@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form 5</title>
+    <style>
+        fieldset{
+            width: 400px;
+        }
+        fieldset{
+            border-radius: 50px;
+            border-color: blueviolet;
+        }
+        body{
+            background-color: beige;
+        }
+    </style>
+</head>
+<body>
+    <fieldset><legend><h3><i>Registration Form</i></h3></legend>
+        <table cellpadding="6" cellscaping="6">
+         <tr><td><label for="fname">First Name :</label></td><td><input type="text" name="fname" id="First Name"></td></tr>
+         <tr><td><label for="lname">Last Name :</label></td><td><input type="text" name="lname"></td></tr>
+         <tr><td><label for="uname">User Name :</label></td><td><input type="text" name="uname"></td></tr>
+         <tr><td><label for="pws">Password :</label></td><td><input type="password" name="pws"></td></tr>
+         <tr><td><label for="pws">Confirm Password :</label></td><td><input type="password" name="pws"></td></tr>
+         <tr><td><label for="mail">Email :</label></td><td><input type="email" name="mail"></td></tr>
+         <tr><td><label for="mobno">Mobile :</label></td><td><input type="text" name="mobno"></td></tr>
+         <tr><td><label for="gender">Gender :</label></td><td><input type="radio" name="gender" value="M">Male <br>
+            <input type="radio" name="gender" value="F">Female</td></tr>
+            <tr><td><label for="course">Course :</label></td>
+                <td><select>
+                    <option value="" name="c1"></option>
+                  <option value="MCA" name="c1">MCA</option>
+                  <option value="MSC" name="c1">MSC</option>
+                  <option value="MBA" name="c1">MBA</option>
+                  <option value="MTECH" name="c1">MTECH</option></td></tr>
+        <tr><td><label for="nationa">Nationality :</label></td><td><input type="checkbox" name="n1" value="indian">Indian
+             <input type="checkbox" name="n1" value="other">Other</td></tr>
+        <tr><td><label for="profile">Profile :</label></td><td><img src="C:\Users\AKSHAY\Desktop\i1.jpg" alt="profile" width="100" height="100"><br>
+            <input type="file" value="Choose file"></td></tr>   
+<tr><td><input type="submit" value="Submit">&nbsp;&nbsp;<input type="reset" value="Reset"></td></tr>
+            </table>
+        </fieldset>
+    
+</body>
+</html>
